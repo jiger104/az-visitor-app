@@ -4,5 +4,5 @@
 
 Create .env file after cloning with ENVOY_CLIENT_API_KEY
 
-Run with `bun run dev`
+Run with `npm i && bun run dev`
 
