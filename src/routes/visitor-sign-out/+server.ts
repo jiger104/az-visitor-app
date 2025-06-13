@@ -68,5 +68,6 @@ const parseEntries = (entries: any): SignInEntry[] => {
         maxVisitTime,
         exceededVisitTime,
       };
-    });
+    })
+    .slice(0, 10);
 };

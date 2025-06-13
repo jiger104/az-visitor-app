@@ -200,7 +200,7 @@ button[type="submit"]:hover {
 </style>
 
 <div class="page-container">
-  <h1>Welcome to AZ Visitor Sign In</h1>
+  <h1>AZ Visitor Sign In</h1>
   <form on:submit={handleSubmit}>
     <input
       type="text"
@@ -229,7 +229,7 @@ button[type="submit"]:hover {
   </form>
 
   <section class="visitors-section">
-    <h2>AZ Signed In Visitors</h2>
+    <h1 style="text-align: center; margin-bottom: 1.5rem;">AZ Signed In Visitors</h1>
     {#if recentSignIns && recentSignIns.length > 0}
       <table class="visitors-table">
         <thead>
